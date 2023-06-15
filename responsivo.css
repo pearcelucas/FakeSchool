@@ -1,4 +1,4 @@
-@media (max-width:800px) {
+@media (max-width:800px) and (orientation: portrait) {
     /* Estilos para telas menores que 1100px */
      
     #container{
