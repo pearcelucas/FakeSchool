@@ -1,21 +1,18 @@
 @media (max-width:800px) and (orientation: portrait) {
-    /* Estilos para telas menores que 1100px */
+    /* Estilos para telas menores que 800px ou orientação retrato */
      
     #container{
         display: none;
     }
+    
     #relatorio {
         width: 100%;
         margin: 1% 1%;     
     }
 
-      
-     
     #nav-bar{
-        
         display: flex;
         width: 100%;
-
     }
 
     button{
@@ -25,9 +22,9 @@
         color: white;
         border: 1px solid black;
     }
+
     button:hover{
         background-color: white;
         color: blue;
     }
-
   }
