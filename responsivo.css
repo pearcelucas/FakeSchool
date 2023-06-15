@@ -1,0 +1,34 @@
+@media (max-width:800px) {
+    /* Estilos para telas menores que 1100px */
+     
+    #container{
+        display: none;
+    }
+    #relatorio {
+        width: 100%;
+        margin: 1% 0;
+        
+    }
+
+      
+     
+    #nav-bar{
+        
+        display: flex;
+        width: 100%;
+
+    }
+
+    button{
+        margin: 0;
+        border-radius: 0;
+        background-color: rgb(5, 33, 146);
+        color: white;
+        border: 1px solid black;
+    }
+    button:hover{
+        background-color: white;
+        color: blue;
+    }
+
+  }
