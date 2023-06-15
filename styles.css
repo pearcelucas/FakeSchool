@@ -24,11 +24,13 @@ header h1{
     font-family: 'Pacifico', cursive;
     color: white;
     text-shadow: 5px 5px black;
+    font-size: 3vw;
 }
 
 #icon{
   margin: 2%;
   filter: drop-shadow(5px 5px black);
+  width: 5vw; 
 }
 
 #nav-bar{
