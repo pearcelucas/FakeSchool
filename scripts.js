@@ -1,12 +1,4 @@
 
-// Revisão - Projeto Aluno
-// Menu 
-// 1. listar alunos
-// 2. Buscar aluno (nome)
-// 3. adicionar/cadastrar aluno
-// 4. Editar/alterar aluno
-// 5. Excluir/deletar aluno
-
 //Criando a lista dos alunos
 let mat = 1;
 let listaAlunos = [
@@ -16,7 +8,9 @@ let listaAlunos = [
 
 //criando o botao de listar alunos
 let botaoListar = document.getElementById('listar');
+let botaoListar2 = document.getElementById('listar2')
 botaoListar.addEventListener('click', listarAlunos);
+botaoListar2.addEventListener('click', listarAlunos);
 
 //criando o texto no html
 
@@ -43,7 +37,9 @@ function listarAlunos()
 
 //criando o botao de buscar alunos
 let botaoBuscar = document.getElementById('buscar');
+let botaoBuscar2 = document.getElementById('buscar2');
 botaoBuscar.addEventListener('click', listarPorNome);
+botaoBuscar2.addEventListener('click', listarPorNome);
 
 // criando a função de listar pelo nome
 function listarPorNome(nome){
@@ -64,7 +60,9 @@ function listarPorNome(nome){
 
 //criando o botao de cadastrar alunos
 let botaoCadastrar = document.getElementById('cadastrar');
+let botaoCadastrar2 = document.getElementById('cadastrar2');
 botaoCadastrar.addEventListener('click', cadastrarAluno);
+botaoCadastrar2.addEventListener('click', cadastrarAluno);
 
 // criando função de cadastrar aluno
 function cadastrarAluno(matricula, nome, curso, nota){
@@ -82,7 +80,9 @@ function cadastrarAluno(matricula, nome, curso, nota){
 
 //criando o botao de editar alunos
 let botaoEditar = document.getElementById('editar');
+let botaoEditar2 = document.getElementById('editar2');
 botaoEditar.addEventListener('click', editarAluno);
+botaoEditar2.addEventListener('click', editarAluno);
 
 
 // criando função de editar aluno
@@ -103,7 +103,9 @@ function editarAluno (matricula, nome, curso, nota){
 
 //criando o botao de excluir alunos
 let botaoExcluir = document.getElementById('excluir');
+let botaoExcluir2 = document.getElementById('excluir2');
 botaoExcluir.addEventListener('click', excluirAluno);
+botaoExcluir2.addEventListener('click', excluirAluno);
 
 //função de excluir aluno
 
